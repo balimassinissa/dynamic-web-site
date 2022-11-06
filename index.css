@@ -1,0 +1,369 @@
+body
+{
+    
+    background-color: #ececec;
+    background-image:linear-gradient(#ececec, #44566c);
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+
+}
+.entete
+{
+    margin-top: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background : url("./tazmalt.jpg") center/cover no-repeat;
+    padding: 10px;
+    
+    
+}
+.entete_titre
+{
+  font-style: italic;
+  text-shadow: grey;
+  font-size: xx-large;
+  margin-top: 45px;
+  text-align: center;
+}
+.titre{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ background-color:#44566c;
+ 
+  background-repeat: no-repeat;
+  background-position:center center ;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.titre_texte
+{
+  width: 460px;
+  background-color: #4b5e65;
+  height: 70px;
+  font-family:"Sawasdee","Dyuthi",Serif;
+  font-size: 20px;
+  text-align:center;
+  margin-top: -10px;
+
+  
+}
+.navbar-brand
+{
+
+width:auto;
+
+}
+.nav-link
+{
+  width: auto;
+  margin-bottom: 15px;
+  color:white;
+}
+.nav-item
+{
+  margin-left: 15px;
+  color:white;
+}
+.activea
+{
+  margin-left:50px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.container-fluid
+{
+  background-color: #4b5e65;
+ 
+  
+}
+nav{
+  margin-top: 10px;
+}
+  .gallerie
+{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  height: 800px;
+  
+}
+
+#carouselExampleDark
+{
+  height: 800px;
+  flex: 70%;
+  margin-right: 10px;
+}
+
+.Histoire_A
+{
+  background-color: #4b5e65;
+  width: 49%;
+}
+.fashion {
+  float: left;
+  display: inline;
+  flex: 30%;
+  
+  
+}
+.single_post_content {
+  float: left;
+  display: inline;
+  width: 100%;
+  margin-bottom: 20px;
+  border-width: 2px;
+  background-color: #4b5e65;
+}
+h2 {
+  background: none repeat scroll 0 0 #2f435e;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-top: 5px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.bsbig_fig {
+  width: 90%;
+  margin-left: 15px;
+  text-align: justify;
+  
+}
+.bsbig_fig figcaption {
+  color: #2f435e;
+  font-family: "Oswald",sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+#actualite
+{
+  height: 50%;
+}
+.actualite{
+  flex: 20%;
+  height: 100%;
+  width: 380px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow-y: scroll;
+  scrollbar-color: #4b5e65 rgb(236, 228, 178);
+  scrollbar-width: thin;
+  border: solid #4b5e65;
+
+}.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008bba57;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+.histoire_comerce{
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  
+}
+.anuaire_map
+{
+  display: flex;
+  flex-direction: row;
+
+
+}
+table {
+  background-color: #4b5e65;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #2f435e;
+}
+footer{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:#4b5e65;
+  
+  
+}
+.footer_up
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cont a     
+{
+  font-size: medium;
+  color: white;
+  padding: 10px;
+}
+.cont a:hover
+{
+  background-color:#4b5e65 ;
+  color: #4b5e65;
+}
+.copyright
+{
+
+  margin-top: 20%;
+  margin-bottom: 1%; 
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+@media screen and (max-width: 900px)
+{
+  
+  .gallerie{
+    flex-direction: column;
+  }
+  .actualite
+  {
+    width: 98%;
+    height: 500px;
+
+  }
+  #actualite
+  {
+    width: 100%;
+  
+    
+  }
+  .histoire_comerce
+  {
+    margin-top: 200px;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .anuaire_map 
+  {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  
+  .fashion
+  {
+    margin-top: 10px;
+  }
+  #widget_d176d8d2f625860367cf563f79f11920
+  {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px)
+{
+  .histoire_comerce
+  {
+    margin-top: 100px;
+  }
+  
+}
+@media screen and (max-width : 800px)
+{
+  .footer_up
+  {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  #logo{
+    display: none;
+  }
+  
+}

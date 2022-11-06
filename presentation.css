@@ -1,0 +1,62 @@
+#carouselExampleDark
+{
+    height: auto;
+}
+.carousel-item
+{
+    height: auto;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   background-color:#44566c;
+   
+    background-repeat: no-repeat;
+    background-position:center center ;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.titre_texte
+{
+    width: 460px;
+    background-color: #4b5e65;
+    height: 70px;
+    font-family:"Sawasdee","Dyuthi",Serif;
+    font-size: 20px;
+    text-align:center;
+    margin-top: -10px;
+
+    
+}
+.section1
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.titre_loc
+{
+    width: 300px;
+}
+@media screen and (max-width : 750px)
+{
+  .section1{
+      flex-direction: column-reverse;
+  }
+  iframe
+  {
+      margin-left: 15%;
+      width: 70%;
+  }
+  img
+  {
+      margin-left: 15%;
+      width: 70%;
+  }
+  .titre_loc
+  {
+      width: 100%;
+  }
+  
+}
